@@ -1,16 +1,127 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <title>Architectural Floor Plans</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background-color: #e6ece9;
+        }
+
+        .main-container {
+            width: 1100px;
+            margin: 0 auto;
+            background-color: #f5f7f5;
+            padding: 0;
+        }
+
+        .imageContainer {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .imageContainer img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td {
+            vertical-align: top;
+            padding: 15px;
+        }
+
+        td img {
+            width: 100%;
+            height: auto;
+        }
+
+        .column-200 {
+            width: 200px;
+        }
+
+        .column-600 {
+            width: 600px;
+        }
+
+        h2 {
+            color: #333;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #333;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .source {
+            font-size: 12px;
+            color: #666;
+            margin-top: 10px;
+        }
+
+        .source a {
+            color: #666;
+            text-decoration: underline;
+        }
+
+        .learn-more {
+            color: #0000ff;
+            font-size: 12px;
+            text-decoration: underline;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <div class="main-container">
+        <div class="imageContainer">
+            <img src="https://via.placeholder.com/1100x300" alt="Architectural Sketch">
+        </div>
 
+        <table>
+            <tr>
+                <td class="column-200">
+                    <img src="https://via.placeholder.com/200x200" alt="Modern Structure">
+                </td>
+                <td class="column-600">
+                    <h2>Unit #5 - Floor Plans</h2>
+                    <p>A. Kitchen</p>
+                    <p>B. Bathroom</p>
+                    <p>C. Using "Slabs"</p>
+                    <p>D. Georgian Home</p>
+                    <p>E. Sketching Assignment #5</p>
+                </td>
+                <td class="column-200">
+                    <img src="https://via.placeholder.com/200x200" alt="Abstract Design">
+                </td>
+            </tr>
+            <tr>
+                <td class="column-200">
+                    <img src="https://via.placeholder.com/200x200" alt="Spiral Design">
+                </td>
+                <td class="column-600">
+                    <h2>Objective</h2>
+                    <p>Discuss factors that are important in the design of bedrooms. Plan the size and location of closets for a typical residence. Plan a furniture arrangement for a room. Implement important design considerations for bathrooms. Plan a bathroom that follows solid design principles. Plan the service area of a home by applying good design principles. Design a functional kitchen to meet a family's needs. Select kitchen appliances that are appropriate for a design. Plan an efficient clothes care center. Describe appropriate dimensions for garage space. Identify the rooms and areas that comprise the living area. Apply design principles to planning a living room. Integrate the furniture in a living room plan. Analyze a dining room using good design principles. Design a functional entry and foyer.</p>
+                </td>
+                <td class="column-200">
+                    <p>Green Floor and FreeGreen.com offers both sponsored and non-sponsored floor plans. Their goal is to provide consumers with free solutions to their green architectural needs.</p>
+                    <p class="learn-more"><a href="#">learn more</a></p>
+                </td>
+            </tr>
+        </table>
+
+        <div class="source">
+            <p>HOUSEPLANS.com The largest source for quality affordable ready-made house plans. A great place to surf for space planning ideas <a href="#">learn more</a></p>
+        </div>
+    </div>
 </body>
-
 </html>
